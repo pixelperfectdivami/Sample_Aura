@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "devops_test" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "devops_test" ]
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -27,13 +27,9 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: Install dependencies
-      run: npm i @nx/nx-linux-x64-gnu --force
-    - name: Install NX
-      run: npm i nx --force
-    - name: Install dependencies
       run: npm i --force
     - name: Generate Build
-      run: npx nx run webApp:build --configuration=production --no-cloud
+      run: npm run build
     - name: Installing gh-pages dependencies
       run: npm install --save gh-pages
     - name: Deploy
