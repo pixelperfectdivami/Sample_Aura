@@ -2,7 +2,7 @@
   "name": "sample_aura_1_-_10",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pixelperfectdivami.github.io/Sample_Aura",
+  "homepage": "https://pixelperfectdivami.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
