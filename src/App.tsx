@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/Sample_Aura" element={<Profile />} /> #Exposing application on Custom Route
+      <Route path="/Sample_Aura" element={<Profile />} /> #Exposing application on Custom Route /Sample_Aura
     </Routes>
   );
 }
