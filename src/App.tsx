@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Profile />} />
+      <Route path="/Sample_Aura" element={<Profile />} />
     </Routes>
   );
 }
