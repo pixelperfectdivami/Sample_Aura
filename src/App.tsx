@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Profile />} /> #Exposing app on /
+      <Route path="/" element={<Profile />} /> #Exposing application on /
     </Routes>
   );
 }
